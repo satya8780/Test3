@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Enter the video_file1"
+read video_file1
+echo "Enter the video_file2"
+read video_file2
+mkdir /home/output
+cp -r $video_file1 $video_file2 output
+ 
